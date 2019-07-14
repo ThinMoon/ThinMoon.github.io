@@ -6,15 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | ThinMoon的个人博客</title>
+  <title>《Java编程思想》学习记录：一切都是对象 | ThinMoon的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="ThinMoon的个人博客">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="前言：本文主要是我在《Java编程思想》一书中的学习心得体会，所以里面会有大量的书中引用。本文原创于ThinMoon的个人博客  一切皆对象一切皆对象是什么意思，我想在我目前的阶段还是无法体会到的，这句话只有在做过大量项目、学习的更加深入后才能够有更加透彻，深层次的体会。Alan Kay总结的五个基本特性我摘录在此与君共勉！   万物皆对象 程序是对象的集合，他们通过发送消息来告知彼此所要做的">
+<meta name="keywords" content="《Java编程思想》学习记录">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《Java编程思想》学习记录：一切都是对象">
+<meta property="og:url" content="http://yoursite.com/2019/07/14/《Java编程思想》学习记录：一切都是对象/index.html">
 <meta property="og:site_name" content="ThinMoon的个人博客">
+<meta property="og:description" content="前言：本文主要是我在《Java编程思想》一书中的学习心得体会，所以里面会有大量的书中引用。本文原创于ThinMoon的个人博客  一切皆对象一切皆对象是什么意思，我想在我目前的阶段还是无法体会到的，这句话只有在做过大量项目、学习的更加深入后才能够有更加透彻，深层次的体会。Alan Kay总结的五个基本特性我摘录在此与君共勉！   万物皆对象 程序是对象的集合，他们通过发送消息来告知彼此所要做的">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/18725845-d001ede8f76447b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2019-07-14T08:57:13.671Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ThinMoon的个人博客">
+<meta name="twitter:title" content="《Java编程思想》学习记录：一切都是对象">
+<meta name="twitter:description" content="前言：本文主要是我在《Java编程思想》一书中的学习心得体会，所以里面会有大量的书中引用。本文原创于ThinMoon的个人博客  一切皆对象一切皆对象是什么意思，我想在我目前的阶段还是无法体会到的，这句话只有在做过大量项目、学习的更加深入后才能够有更加透彻，深层次的体会。Alan Kay总结的五个基本特性我摘录在此与君共勉！   万物皆对象 程序是对象的集合，他们通过发送消息来告知彼此所要做的">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/18725845-d001ede8f76447b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="ThinMoon的个人博客" type="application/atom+xml">
   
@@ -148,36 +155,117 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-《Java编程思想》学习记录：一切都是对象" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/07/14/《Java编程思想》学习记录：一切都是对象/" class="archive-article-date">
-  	<time datetime="2019-07-14T08:23:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-14</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/07/14/《Java编程思想》学习记录：一切都是对象/">《Java编程思想》学习记录：一切都是对象</a>
+    <h1 class="article-title" itemprop="name">
+      《Java编程思想》学习记录：一切都是对象
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2019/07/14/《Java编程思想》学习记录：一切都是对象/" class="archive-article-date">
+  	<time datetime="2019-07-14T08:23:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-14</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://upload-images.jianshu.io/upload_images/18725845-d001ede8f76447b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="一切都是对象"></p>
+<blockquote>
+<p><strong>前言</strong>：本文主要是我在《Java编程思想》一书中的学习心得体会，所以里面会有大量的书中引用。本文原创于<a href="https://thinmoon.github.io/" target="_blank" rel="noopener">ThinMoon的个人博客</a></p>
+</blockquote>
+<h2 id="一切皆对象"><a href="#一切皆对象" class="headerlink" title="一切皆对象"></a>一切皆对象</h2><p>一切皆对象是什么意思，我想在我目前的阶段还是无法体会到的，这句话只有在做过大量项目、学习的更加深入后才能够有更加透彻，深层次的体会。Alan Kay总结的五个基本特性我摘录在此与君共勉！</p>
+<blockquote>
+<ul>
+<li>万物皆对象</li>
+<li>程序是对象的集合，他们通过发送消息来告知彼此所要做的</li>
+<li>每个对象都有自己的由其他对象所构成的存储</li>
+<li>每个对象都拥有其类型</li>
+<li>某一特定类型的所有对象都可以接受同样的消息</li>
+</ul>
+</blockquote>
+<h2 id="Java用reference（引用）操纵对象"><a href="#Java用reference（引用）操纵对象" class="headerlink" title="Java用reference（引用）操纵对象"></a>Java用reference（引用）操纵对象</h2><blockquote>
+<p>我们来看个例子<br><code>String s</code><br>这里我们其实只是创建了一个引用，<strong>并没有真正的创建出一个对象</strong>，而我们通常是使用  <strong>new</strong>来创建一个新的对象的。但是此例较为特殊我们可以有以下两种方式进行创建新对象</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String s = <span class="string">"ThinMoon"</span>;</span><br><span class="line">String s = <span class="keyword">new</span> String(<span class="string">"ThinMoon"</span>);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>所以若我们在创建了一个引用时却没有去给他指定一个对象，那么当我们向它发送一个消息时便会报错！<br>一个安全的做法是<strong>创建一个引用的同时便进行初始化</strong></p>
+</blockquote>
+<h2 id="Java永远不需要销毁对象"><a href="#Java永远不需要销毁对象" class="headerlink" title="Java永远不需要销毁对象"></a>Java永远不需要销毁对象</h2><p>拥有自己的<em>垃圾回收器</em>的Java就是舒服、任性！</p>
+<blockquote>
+<p><strong>作用域问题</strong></p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="keyword">int</span> x = <span class="number">12</span>;</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> x = <span class="number">96</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这样的代码在Java中是<strong>不允许</strong>出现的<br>与上面不同的是对象不具备和基本类型一样的生命周期，<strong>对象是可以存活于作用域之外的</strong>所以便有了令人头疼的释放内存的事情<br>但是由于Java中有<strong>垃圾回收器</strong>的存在，所以你new出来的对象只要你需要那么它便会一直存在，而当你不需要时回收器便会在一定时间去处理它。从而消除了<em>内存泄漏</em>的问题！</p>
+</blockquote>
+<ul>
+<li><strong>基本类型</strong></li>
+</ul>
+<p><strong>boolean, char, byte, short, int, long, float, double, void</strong></p>
+<blockquote>
+<ul>
+<li>不用new来创建变量，而是创建一个并非是引用的 “自动” 变量。这个变量直接存储 “值”，直接置于stack中。</li>
+<li>Java会确定每种基本类型所占的存储空间的大小（这也是Java程序比别的语言编写的程序移植性更好的原因之一）。</li>
+<li>为了可以在堆中创建一个非基本对象，基本类型都具有相应的包装类（包装类类名就是将基本类型首字母大写其中<strong>char–&gt;Character, int–&gt;Integer</strong>）。</li>
+<li>Java还提供了两个用于高精度计算的类：<strong>BigInteger</strong>，<strong>BigDecimal</strong>。</li>
+<li><strong>数组</strong></li>
+<li>Java确保数组会被初始化，且不能在他的范围之外被访问（以少量内存开销为代价换来安全性）。</li>
+<li>创建一个数组对象时就是创建了一个<strong>引用数组</strong>，每个引用自动被初始化为<strong>null</strong>。</li>
+</ul>
+</blockquote>
+<ul>
+<li><p><strong>class</strong><br>创建新的数据类型！</p>
+<blockquote>
+<ul>
+<li>类中有两种类型的元素：<strong>字段（数据成员）和 方法（成员函数）</strong>。</li>
+<li>类中的数据成员Java会确保它获得一个默认值（但此方法不适用于局部变量！及并非类中的字段定义得到的变量可能是任意值的）。若变量未被初始化Java编译时会报错。</li>
+</ul>
+</blockquote>
+</li>
+<li><p><strong>方法、参数、返回值</strong></p>
+<blockquote>
+<ul>
+<li>Java中的方法只能作为类的一部分来创建，方法只有通过对象才能被调用。</li>
+<li>在参数列表中必须指定每个所传递对象的类型及名字，传递实际上也是引用。</li>
+</ul>
+</blockquote>
+</li>
+<li><p><strong>static</strong><br>static有两种使用情形：</p>
+</li>
+</ul>
+<ol>
+<li>只想为某特定域分配空间，不去考虑要创多少对象。</li>
+<li>希望某个方法不与包含他的类的任何对象关联在一起。<blockquote>
+<ul>
+<li>只有一份存储空间</li>
+<li>可以用对象去引用它，也可以用类名直接引用。</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<ul>
+<li><strong>Java程序</strong><blockquote>
+<p>默认导入java.lang</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h1 id="END……"><a href="#END……" class="headerlink" title="END……."></a>END…….</h1> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -189,57 +277,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/07/14/《Java编程思想》学习记录：一切都是对象/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/07/13/为什么我要开始写博客/" class="archive-article-date">
-  	<time datetime="2019-07-13T11:06:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-13</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/07/13/为什么我要开始写博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">为什么我要开始写博客</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/07/13/为什么我要开始写博客/">为什么我要开始写博客</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">生活</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -262,8 +399,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
